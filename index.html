@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Validation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <h2>REGISTRATION FORM</h2>
+    </div>
+    <form class="form" id="form">
+      <div class="form-container">
+        <label>Username</label>
+        <input type="text" id="username" placeholder="Enter Your Full Name" autocomplete="off">
+        <small>error message</small>
+      </div>
+      <div class="form-container">
+        <label>Email</label>
+        <input type="email" id="email" placeholder="Enter Your Email" autocomplete="off" >
+        <small>error message</small>
+      </div>
+      <div class="form-container">
+        <label>Phone Number</label>
+        <input type="tel" id="phone" placeholder="Enter Your Phone Number" autocomplete="off">
+        <small>error message</small>
+      </div>
+      <div class="form-container">
+        <label>Password</label>
+        <input type="password" id="password" placeholder="Enter Your Password" autocomplete="off">
+        <small>error message</small>
+      </div>
+      <div class="form-container">
+        <label>Confirm Password</label>
+        <input type="password" id="confirmPassword" placeholder="Enter Your Confirm Password" autocomplete="off">
+        <small>error message</small>
+      </div>
+      <input type="submit" value="submit" class="btn">
+    </form>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
