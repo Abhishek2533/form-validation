@@ -21,12 +21,12 @@ body {
 
 .header {
     background: #151414d1;
-    padding: 30px 0;
+    padding: 15px 0;
 }
 
 .header h2 {
     color: #ff0000;
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
 }
 
