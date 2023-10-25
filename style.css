@@ -6,7 +6,7 @@ body {
     justify-content: center;
     min-height: 100vh;
     width: 100vw;
-    overflow: hidden;
+    overflow: auto;
     background: #222222d1;
 }
 
@@ -15,8 +15,9 @@ body {
     border-radius: 10px;
     box-shadow: 0 15px 20px #000;
     overflow: hidden;
-    width: calc(100vw - 65vw);
-    max-width: 80%;
+/*     width: calc(100vw - 65vw); */
+    width: max(400px, calc(100vw - 65vw));
+/*     max-width: 80%; */
 }
 
 .header {
@@ -102,9 +103,9 @@ body {
 }
 
 
-@media (max-width: 998px) {
+/* @media (max-width: 998px) {
     .container {
         width: calc(100vw - 35vw);
         max-width: 80%;
     }
-}
+} */
